@@ -59,5 +59,5 @@ angular.module('embed', ['ui.router'])
         }
       }
     };
-  });
- 
+  })
+
