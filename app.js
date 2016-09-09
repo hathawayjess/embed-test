@@ -25,6 +25,10 @@ angular.module('embed', ['ui.router'])
     url:'/small',
     templateUrl: "./templates/small.html"
   })
+  .state('overlap', {
+    url:'/overlap',
+    templateUrl: "./templates/overlap.html"
+  })
 
   $urlRouterProvider
   .otherwise('/');
