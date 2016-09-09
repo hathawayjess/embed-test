@@ -29,6 +29,42 @@ angular.module('embed', ['ui.router'])
     url:'/overlap',
     templateUrl: "./templates/overlap.html"
   })
+  .state('collection', {
+    url:'/collection',
+    templateUrl: "./templates/collection.html"
+  })
+  .state('test-single',{
+    url:'/test-single',
+    templateUrl: "./templates/test/test-single.html"
+  })
+  .state('test-multiple', {
+    url:'/test-multiple',
+    templateUrl: "./templates/test/test-multiple.html"
+  })
+  .state('test-video', {
+    url:'/test-video',
+    templateUrl: "./templates/test/test-video.html"
+  })
+  .state('test-audio', {
+    url:'/test-audio',
+    templateUrl: "./templates/test/test-audio.html"
+  })
+  .state('test-pdf', {
+    url:'/test-pdf',
+    templateUrl: "./templates/test/test-pdf.html"
+  })
+  .state('test-small', {
+    url:'/test-small',
+    templateUrl: "./templates/test/test-small.html"
+  })
+  .state('test-overlap', {
+    url:'/test-overlap',
+    templateUrl: "./templates/test/test-overlap.html"
+  })
+  .state('test-collection', {
+    url:'/test-collection',
+    templateUrl: "./templates/test/test-collection.html"
+  })
 
   $urlRouterProvider
   .otherwise('/');
