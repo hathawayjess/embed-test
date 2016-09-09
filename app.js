@@ -21,6 +21,10 @@ angular.module('embed', ['ui.router'])
   	url:'/pdf',
   	templateUrl: "./templates/pdf.html"
   })
+  .state('small', {
+    url:'/small',
+    templateUrl: "./templates/small.html"
+  })
 
   $urlRouterProvider
   .otherwise('/');
